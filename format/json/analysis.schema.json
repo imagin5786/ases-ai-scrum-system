@@ -1,0 +1,33 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "analysis",
+  "produced_by": "/analyze",
+  "consumed_by": ["/sprint-scaffold", "/tasks"],
+  "sprint_id": "S1",
+  "blocking_gaps": [
+    {
+      "id": "BG-001",
+      "type": "missing_package | missing_file | missing_service | missing_env | missing_migration",
+      "description": "",
+      "required_by": [],
+      "resolution": ""
+    }
+  ],
+  "non_blocking_gaps": [
+    {
+      "id": "NBG-001",
+      "description": "",
+      "impact": "low | negligible",
+      "resolution": ""
+    }
+  ],
+  "codebase_drift": [
+    {
+      "lld_expects": "",
+      "actual_state": "missing | modified | mismatched",
+      "impact": "",
+      "sprint_ref": ""
+    }
+  ],
+  "verdict": "READY | BLOCKED"
+}

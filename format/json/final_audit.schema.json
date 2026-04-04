@@ -1,0 +1,59 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "final_audit",
+  "produced_by": "/final-audit",
+  "consumed_by": ["/release"],
+  "sprint_id": "S1",
+  "timestamp": "",
+  "lenses": {
+    "test_coverage": {
+      "total_test_cases": 0,
+      "covered": 0,
+      "uncovered": [],
+      "coverage_percent": 0,
+      "status": "pass | fail"
+    },
+    "integration_integrity": {
+      "scenarios_run": 0,
+      "scenarios_passed": 0,
+      "violations": [],
+      "status": "pass | fail"
+    },
+    "system_test": {
+      "scenarios_run": 0,
+      "critical_failures": [],
+      "status": "pass | fail"
+    },
+    "uat_alignment": {
+      "accepted": 0,
+      "conditional": 0,
+      "rejected": 0,
+      "conditional_notes_as_debt": [],
+      "status": "pass | fail"
+    },
+    "spec_conformance": {
+      "files_audited": 0,
+      "drift_detected": [],
+      "status": "pass | fail"
+    },
+    "risk_review": {
+      "risks_encountered": [],
+      "mitigations_applied": [],
+      "new_risks_discovered": [],
+      "status": "pass | fail"
+    }
+  },
+  "findings": [
+    {
+      "id": "FA-001",
+      "lens": "",
+      "severity": "critical | major | minor | warning",
+      "description": "",
+      "resolution": "fix_now | carry_forward | accept"
+    }
+  ],
+  "tech_debt": [],
+  "verdict": "SHIP | CONDITIONAL_SHIP | BLOCK",
+  "block_reason": "",
+  "surgical_reentry_target": ""
+}

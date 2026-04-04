@@ -1,0 +1,30 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "lld",
+  "produced_by": "/lld",
+  "consumed_by": ["/schema", "/test-spec", "/tasks", "/validate", "/dev"],
+  "sprint_id": "S1",
+  "files": [
+    {
+      "path": "src/engine/signal.py",
+      "purpose": "",
+      "layer": "presentation | application | domain | infrastructure",
+      "module_ref": "M-001",
+      "functions": [
+        {
+          "name": "",
+          "inputs": [{ "name": "", "type": "", "required": true }],
+          "outputs": [{ "name": "", "type": "" }],
+          "description": "",
+          "raises": []
+        }
+      ],
+      "interfaces": {
+        "exports": [],
+        "expects": []
+      },
+      "depends_on": [],
+      "test_required": true
+    }
+  ]
+}

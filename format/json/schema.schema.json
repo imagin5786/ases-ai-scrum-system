@@ -1,0 +1,32 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "schema",
+  "produced_by": "/schema",
+  "consumed_by": ["/dev", "/sprint-gate", "/test-spec"],
+  "sprint_id": "S1",
+  "entities": [
+    {
+      "name": "",
+      "hld_module": "M-001",
+      "type": "table | model | enum | type",
+      "fields": [
+        {
+          "name": "",
+          "type": "",
+          "nullable": false,
+          "default": null,
+          "description": ""
+        }
+      ],
+      "indexes": [],
+      "relationships": [
+        {
+          "type": "one_to_many | many_to_many | one_to_one",
+          "target": "",
+          "foreign_key": ""
+        }
+      ],
+      "constraints": []
+    }
+  ]
+}

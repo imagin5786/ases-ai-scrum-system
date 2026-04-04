@@ -1,0 +1,35 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "prd",
+  "produced_by": "/prd",
+  "consumed_by": ["/hld", "/lld", "/test-spec", "/sprint-gate", "/uat"],
+  "prd_version": 1,
+  "product_name": "",
+  "objective": "",
+  "users": [],
+  "features": [
+    {
+      "id": "F-001",
+      "name": "",
+      "description": "",
+      "priority": "critical | high | low",
+      "acceptance_criteria": [
+        {
+          "id": "AC-001",
+          "criterion": "",
+          "testable": true
+        }
+      ],
+      "sprint_allocation": "S1 | S2 | TBD"
+    }
+  ],
+  "constraints": [],
+  "non_functional": {
+    "performance": "",
+    "security": "",
+    "scalability": "",
+    "accessibility": ""
+  },
+  "edge_cases": [],
+  "non_goals": []
+}

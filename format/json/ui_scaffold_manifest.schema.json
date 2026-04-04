@@ -1,0 +1,30 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "ui_scaffold_manifest",
+  "produced_by": "/ui-scaffold",
+  "consumed_by": ["/dev", "/test-impl"],
+  "sprint_id": "S1",
+  "framework": "nextjs",
+  "scaffold_root": "/ui",
+  "components": [
+    {
+      "id": "C-001",
+      "path": "/ui/components/SignalCard.tsx",
+      "task_ref": "T-005",
+      "locked": true,
+      "integration_points": [
+        {
+          "id": "IP-001",
+          "type": "session_validation | api_connection | env_var | auth_guard",
+          "location": "",
+          "instruction": "",
+          "endpoint_ref": "",
+          "mock_data_file": ""
+        }
+      ]
+    }
+  ],
+  "mock_data_files": [],
+  "env_vars_needed": [],
+  "glm_scope": "integration_points_only"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "integration_scenarios",
+  "produced_by": "/integration-test",
+  "consumed_by": ["/final-audit"],
+  "sprint_id": "S1",
+  "scenarios": [
+    {
+      "id": "IS-001",
+      "name": "",
+      "description": "",
+      "modules_involved": ["M-001", "M-002"],
+      "data_flow_ref": "DF-001",
+      "flow": [],
+      "entry_point": "",
+      "exit_assertion": "",
+      "test_data": {},
+      "test_file": "tests/integration/test_pipeline.py",
+      "priority": "critical | high | low",
+      "result": "pass | fail | skip | pending"
+    }
+  ]
+}

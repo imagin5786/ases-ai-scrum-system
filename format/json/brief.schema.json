@@ -1,0 +1,30 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "brief",
+  "produced_by": "/interview",
+  "consumed_by": ["/prd", "/hld", "/init"],
+  "version": 1,
+  "product": {
+    "name": "",
+    "objective": "",
+    "users": [],
+    "core_features": [],
+    "non_goals": [],
+    "success_criteria": []
+  },
+  "engineering": {
+    "tech_stack": {
+      "backend": "",
+      "frontend": "",
+      "database": "",
+      "infra": ""
+    },
+    "known_integrations": [],
+    "performance_constraints": [],
+    "deployment_context": "",
+    "data_shape": ""
+  },
+  "constraints": [],
+  "risks": [],
+  "sprint_1_hypothesis": ""
+}

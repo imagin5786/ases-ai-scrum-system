@@ -1,0 +1,38 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "sprint_gate",
+  "produced_by": "/sprint-gate",
+  "consumed_by": ["/analyze"],
+  "sprint_id": "S1",
+  "timestamp": "",
+  "checks": [
+    {
+      "check": "lld_files_cover_roadmap_scope",
+      "status": "pass | fail",
+      "details": ""
+    },
+    {
+      "check": "schema_entities_match_lld_models",
+      "status": "pass | fail",
+      "details": ""
+    },
+    {
+      "check": "test_cases_cover_all_ac",
+      "status": "pass | fail",
+      "details": ""
+    },
+    {
+      "check": "deps_manifest_complete",
+      "status": "pass | fail",
+      "details": ""
+    },
+    {
+      "check": "no_lld_conflicts_with_previous_sprint",
+      "status": "pass | fail | n/a",
+      "details": ""
+    }
+  ],
+  "verdict": "PASS | FAIL",
+  "blocking_issues": [],
+  "warnings": []
+}

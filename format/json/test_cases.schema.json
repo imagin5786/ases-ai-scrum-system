@@ -1,0 +1,24 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "test_cases",
+  "produced_by": "/test-spec",
+  "consumed_by": ["/tasks", "/test-impl", "/critique", "/final-audit"],
+  "sprint_id": "S1",
+  "test_cases": [
+    {
+      "id": "TC-001",
+      "feature_id": "F-001",
+      "ac_ref": "AC-001",
+      "description": "",
+      "type": "unit | integration | edge | performance | security",
+      "priority": "critical | high | low",
+      "file_ref": "src/engine/signal.py",
+      "function_ref": "",
+      "inputs": {},
+      "expected_output": {},
+      "expected_side_effects": [],
+      "should_raise": null,
+      "framework": "pytest | jest | playwright"
+    }
+  ]
+}

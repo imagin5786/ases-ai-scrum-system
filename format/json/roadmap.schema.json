@@ -1,0 +1,24 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "roadmap",
+  "produced_by": "/roadmap",
+  "consumed_by": ["/lld", "/sprint-gate", "/release"],
+  "sprints": [
+    {
+      "id": "S1",
+      "goal": "",
+      "features": ["F-001"],
+      "modules": ["M-001"],
+      "scope_notes": "",
+      "dependencies_on": [],
+      "status": "planned | active | complete | deferred"
+    }
+  ],
+  "deferred": [
+    {
+      "item": "",
+      "reason": "",
+      "target_sprint": "S2 | TBD"
+    }
+  ]
+}

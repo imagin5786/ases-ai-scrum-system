@@ -1,0 +1,47 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "context",
+  "produced_by": "/init",
+  "updated_by": "every_command",
+  "project_id": "",
+  "project_name": "",
+  "created_at": "",
+  "current_sprint": "S1",
+  "current_phase": "PROJECT_START | SPRINT_DESIGN | SPRINT_EXECUTION | SPRINT_SHIP",
+  "current_stage": "",
+  "prd_version": 1,
+  "completed_steps": [],
+  "open_issues": [
+    {
+      "id": "OI-001",
+      "source": "",
+      "description": "",
+      "severity": "critical | major | minor",
+      "status": "open | resolved"
+    }
+  ],
+  "deferred_items": [],
+  "tech_debt": [
+    {
+      "id": "TD-001",
+      "description": "",
+      "severity": "major | minor",
+      "source": "",
+      "target_sprint": ""
+    }
+  ],
+  "sprint_history": [
+    {
+      "sprint_id": "S1",
+      "status": "shipped | partial | blocked",
+      "shipped_at": "",
+      "verdict": "SHIP | CONDITIONAL_SHIP",
+      "features_shipped": [],
+      "tasks_deferred": [],
+      "tech_debt_introduced": []
+    }
+  ],
+  "decisions_count": 0,
+  "last_updated": "",
+  "last_updated_by": ""
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "ases/v3.0",
+  "document": "global_context",
+  "level": 1,
+  "description": "Full project history — identifier-addressed, explicit-call-only, PO-controlled",
+  "produced_by": "/ases-release",
+  "consumed_by": ["/ases-inject (by ID)", "/ases-release", "/ases-prd-update"],
+  "version": 1,
+  "project": "",
+  "created": "",
+  "last_updated": "",
+  "entries": [
+    {
+      "id": "SP-001",
+      "type": "sprint_digest | decision | tech_debt | feature | risk | carry_forward",
+      "sprint": "S1",
+      "summary": "",
+      "tags": [],
+      "date": "",
+      "full_ref": "sprints/S1/ship/sprint_summary.json"
+    },
+    {
+      "id": "DS-001",
+      "type": "decision",
+      "module_refs": [],
+      "recall_keywords": [],
+      "decision": "",
+      "rationale": "",
+      "tradeoffs": "",
+      "alternatives_considered": [],
+      "sprint": "S1",
+      "date": "",
+      "tags": [],
+      "status": "active | superseded | deferred"
+    },
+    {
+      "id": "TD-001",
+      "type": "tech_debt",
+      "description": "",
+      "severity": "major | minor",
+      "source_sprint": "S1",
+      "target_sprint": "S2",
+      "tags": [],
+      "status": "open | resolved"
+    },
+    {
+      "id": "FT-001",
+      "type": "feature",
+      "feature_id": "F-001",
+      "name": "",
+      "sprint": "S1",
+      "ac_count": 0,
+      "ac_passed": 0,
+      "date": "",
+      "tags": []
+    },
+    {
+      "id": "RI-001",
+      "type": "risk",
+      "description": "",
+      "severity": "critical | medium | low",
+      "mitigation_status": "none | partial | complete",
+      "sprint_identified": "S1",
+      "tags": [],
+      "status": "open | monitoring | resolved"
+    },
+    {
+      "id": "CF-001",
+      "type": "carry_forward",
+      "description": "",
+      "from_sprint": "S1",
+      "to_sprint": "S2",
+      "task_ref": "T-007",
+      "reason": "",
+      "tags": []
+    }
+  ]
+}

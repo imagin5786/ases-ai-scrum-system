@@ -1,0 +1,35 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "ui_spec",
+  "produced_by": "/ui-design",
+  "consumed_by": ["/ui-review", "/ui-scaffold"],
+  "sprint_id": "S1",
+  "components": [
+    {
+      "id": "C-001",
+      "name": "",
+      "task_ref": "T-005",
+      "feature_ref": "F-003",
+      "ac_refs": ["AC-007"],
+      "type": "page | layout | component | modal | form",
+      "route": "/dashboard",
+      "framework": "nextjs",
+      "styling": "tailwind",
+      "props": [
+        { "name": "", "type": "", "required": true, "description": "" }
+      ],
+      "state": [
+        { "name": "", "type": "", "initial": null, "description": "" }
+      ],
+      "interactions": [
+        { "event": "", "action": "", "description": "" }
+      ],
+      "api_dependencies": [
+        { "endpoint": "", "method": "GET | POST | PUT | DELETE", "on": "mount | interaction" }
+      ],
+      "responsive": true,
+      "accessibility_notes": "",
+      "mock_data_ref": "/ui/mocks/"
+    }
+  ]
+}

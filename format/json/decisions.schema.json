@@ -1,0 +1,20 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "decisions",
+  "produced_by": ["/hld", "/lld", "/sprint-close"],
+  "consumed_by": ["/critique", "/final-audit", "/validate"],
+  "decisions": [
+    {
+      "id": "ADR-001",
+      "stage": "hld | lld | sprint",
+      "sprint_id": "S1 | project",
+      "decision": "",
+      "rationale": "",
+      "tradeoffs": "",
+      "alternatives_considered": [],
+      "made_by": "architect | planner | po",
+      "timestamp": "",
+      "status": "active | superseded | deferred"
+    }
+  ]
+}

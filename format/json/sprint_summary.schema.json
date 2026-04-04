@@ -1,0 +1,28 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "sprint_summary",
+  "produced_by": "/sprint-close",
+  "consumed_by": ["/test-impl", "/devops", "/release"],
+  "sprint_id": "S1",
+  "completed_tasks": [],
+  "deferred_tasks": [],
+  "escalated_tasks": [],
+  "new_decisions": [],
+  "tech_debt": [
+    {
+      "id": "TD-001",
+      "source": "critique_loop | escalation",
+      "description": "",
+      "severity": "major | minor",
+      "target_sprint": "S2 | TBD"
+    }
+  ],
+  "next_sprint_inputs": {
+    "carry_forward_tasks": [],
+    "known_constraints": [],
+    "suggested_prd_updates": [],
+    "new_risks": []
+  },
+  "test_case_refs_to_verify": [],
+  "ui_scaffold_manifest_ref": ""
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "ases/v3.0",
+  "document": "context_lean",
+  "level": 3,
+  "description": "Always-loaded lean state — 8 fields maximum, never grows",
+  "produced_by": ["/ases-init", "every_stage_completion"],
+  "consumed_by": ["ases-hook.py — auto-injected every session"],
+  "project": "",
+  "sprint": "S1",
+  "phase": "PROJECT_START | SPRINT_DESIGN | SPRINT_EXECUTION | SPRINT_SHIP",
+  "stage": "",
+  "last_completed": "",
+  "next": "",
+  "blockers": [],
+  "prd_version": 1
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "tasks",
+  "produced_by": "/tasks",
+  "consumed_by": ["/validate", "/dev", "/critique"],
+  "sprint_id": "S1",
+  "tasks": [
+    {
+      "id": "T-001",
+      "file": "src/models/bar.py",
+      "description": "",
+      "type": "create | modify | delete | ui | integration",
+      "module_ref": "M-001",
+      "inputs": {
+        "reads_from": [],
+        "env_vars": [],
+        "services": []
+      },
+      "outputs": {
+        "exports": [],
+        "side_effects": []
+      },
+      "depends_on": [],
+      "test_case_refs": ["TC-001"],
+      "lld_ref": "",
+      "status": "pending | in_progress | complete | failed | deferred",
+      "iteration_count": 0,
+      "plan_file": "sprints/S1/T-001-plan.md",
+      "tests_file": "sprints/S1/T-001-tests.md"
+    }
+  ],
+  "execution_order": ["T-001", "T-002"],
+  "parallel_groups": [["T-003", "T-004"]],
+  "ui_tasks": ["T-005"],
+  "backend_tasks": ["T-001", "T-002", "T-003", "T-004"]
+}

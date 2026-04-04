@@ -1,0 +1,27 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "critique",
+  "produced_by": "/critique",
+  "consumed_by": ["/fix", "/sprint-close", "/final-audit"],
+  "task_id": "T-001",
+  "iteration": 1,
+  "issues": [
+    {
+      "id": "I-001",
+      "lens": "spec | contract | test | security",
+      "severity": "critical | major | minor",
+      "file": "",
+      "line_ref": "",
+      "description": "",
+      "fix_instruction": "",
+      "spec_ref": "",
+      "adr_ref": "",
+      "is_adr_tradeoff": false
+    }
+  ],
+  "verdict": "CLEAN | FIX_REQUIRED | ESCALATE",
+  "escalation_reason": "",
+  "critical_count": 0,
+  "major_count": 0,
+  "minor_count": 0
+}

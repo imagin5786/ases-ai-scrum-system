@@ -1,0 +1,25 @@
+{
+  "$schema": "ases/v3.0",
+  "document": "sprint_context",
+  "level": 2,
+  "description": "Sprint-scoped context — written by /ases-sprint-gate on PASS, auto-loaded by hook during active sprint",
+  "produced_by": "/ases-sprint-gate",
+  "consumed_by": ["ases-hook.py — injected during active sprint"],
+  "sprint_id": "S1",
+  "sprint_goal": "",
+  "features_in_scope": [],
+  "modules_in_scope": [],
+  "tasks_status": {
+    "total": 0,
+    "complete": 0,
+    "in_progress": 0,
+    "pending": 0,
+    "deferred": 0
+  },
+  "open_issues": [],
+  "carry_forward_from_previous": [],
+  "relevant_decisions": [],
+  "known_constraints": [],
+  "written_at": "",
+  "written_by": "ases-sprint-gate"
+}

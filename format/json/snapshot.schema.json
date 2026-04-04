@@ -1,0 +1,13 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "snapshot",
+  "produced_by": "/dev",
+  "consumed_by": ["/rollback"],
+  "task_id": "T-001",
+  "sprint_id": "S1",
+  "snapshot_type": "pre_fix | post_fix | post_dev",
+  "iteration": 0,
+  "timestamp": "",
+  "files_written": [],
+  "file_hashes": {}
+}

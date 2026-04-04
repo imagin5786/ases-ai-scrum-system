@@ -1,0 +1,33 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "deps_manifest",
+  "produced_by": "/lld",
+  "consumed_by": ["/analyze", "/scaffold", "/sprint-scaffold"],
+  "sprint_id": "S1",
+  "packages": [
+    {
+      "name": "",
+      "version": "",
+      "type": "runtime | dev | peer",
+      "required_by": [],
+      "install_cmd": ""
+    }
+  ],
+  "services": [
+    {
+      "name": "",
+      "version": "",
+      "required_by": [],
+      "setup_notes": ""
+    }
+  ],
+  "env_vars": [
+    {
+      "name": "",
+      "required": true,
+      "description": "",
+      "example": ""
+    }
+  ],
+  "migrations": []
+}

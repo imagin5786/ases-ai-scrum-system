@@ -1,0 +1,22 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "system_test_report",
+  "produced_by": "/system-test",
+  "consumed_by": ["/uat", "/final-audit"],
+  "sprint_id": "S1",
+  "scenarios": [
+    {
+      "id": "ST-001",
+      "type": "performance | error_handling | boundary | security | load",
+      "nfr_ref": "",
+      "description": "",
+      "threshold": "",
+      "result": "pass | fail | skip",
+      "actual_value": "",
+      "details": "",
+      "severity_if_failed": "critical | major | minor"
+    }
+  ],
+  "verdict": "pass | fail",
+  "critical_failures": []
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "ases/v2.0",
+  "document": "hld",
+  "produced_by": "/hld",
+  "consumed_by": ["/lld", "/schema", "/roadmap", "/analyze", "/integration-test"],
+  "system_overview": "",
+  "modules": [
+    {
+      "id": "M-001",
+      "name": "",
+      "responsibility": "",
+      "interfaces": [],
+      "dependencies": [],
+      "layer": "presentation | application | domain | infrastructure"
+    }
+  ],
+  "data_flow": [
+    {
+      "id": "DF-001",
+      "from": "M-001",
+      "to": "M-002",
+      "data": "",
+      "protocol": ""
+    }
+  ],
+  "external_dependencies": [],
+  "risks": [
+    {
+      "id": "R-001",
+      "description": "",
+      "severity": "critical | medium | low",
+      "mitigation": "",
+      "module_ref": "M-001"
+    }
+  ]
+}
